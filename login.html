@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="styles_login.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-left">
+            <img src="login.jpg" alt="Login Image">
+        </div>
+        <div class="login-right">
+            <div id="login-form">
+                <h2>Đăng nhập</h2>
+                <div class="input-group">
+                    <input type="text" placeholder="Tên đăng nhập">
+                </div>
+                <div class="input-group">
+                    <input type="password" placeholder="Mật khẩu">
+                </div>
+                <button id="login-btn">Đăng nhập</button>
+                <p>Bạn chưa có tài khoản? <a href="#" id="signup-link">Đăng ký ngay</a></p>
+            </div>
+            <div id="signup-form" style="display: none;">
+                <h2>Đăng ký</h2>
+                <div class="input-group">
+                    <input type="text" placeholder="Tên người dùng">
+                </div>
+                <div class="input-group">
+                    <input type="text" placeholder="Tên đăng nhập">
+                </div>
+                <div class="input-group">
+                    <input type="password" placeholder="Mật khẩu">
+                </div>
+                <div class="input-group">
+                    <input type="password" placeholder="Nhập lại mật khẩu">
+                </div>
+                <button id="signup-btn">Đăng ký</button>
+                <p>Đã có tài khoản? <a href="#" id="login-link">Đăng nhập ngay</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="script_login.js"></script>
+</body>
+</html>
