@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.header {
+    background-color: #ffffff;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    z-index: 999;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+.search-bar {
+    flex: 1;
+    text-align: center;
+}
+.search-bar input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.search-bar button {
+    padding: 8px 15px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-btn,
+.logout-btn,
+.register-btn {
+    padding: 8px 15px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; /* Điều chỉnh khoảng cách với phần tử bên cạnh */
+}
+
+.user-actions {
+    margin: 10px; /* Điều chỉnh khoảng cách giữa user-actions và thanh trắng ngang */
+}
+.content {
+    margin-top: 100px; /* Đảm bảo không che phủ nội dung bên dưới */
+    text-align: center;
+}
+
+.content img {
+    display: block;
+    margin: 0 auto; /* Canh giữa ảnh */
+    max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng của phần tử cha */
+}
+
+.image-caption {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Màu chữ để phù hợp với nền ảnh */
+    padding: 20px; /* Padding cho phần nội dung */
+    background-color: rgba(0, 0, 0, 0.5); /* Màu nền với độ mờ */
+}
+
+.image-caption h2 {
+    font-size: 24px;
+}
+
+.image-caption p {
+    font-size: 16px;
+}
