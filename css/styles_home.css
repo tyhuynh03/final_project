@@ -21,7 +21,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url(img/3.jpg) no-repeat;
+    background: url(jpg/3.jpg) no-repeat;
     background-position: center;
     background-size: cover;
 
